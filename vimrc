@@ -10,6 +10,7 @@ set viminfo='20,\"50	" read/write a .viminfo file, don't store more
 			" than 50 lines of registers
 set history=50		" keep 50 lines of command line history
 set ruler		" show the cursor position all the time
+set mouse=a
 
 " Only do this part when compiled with support for autocommands
 if has("autocmd")
